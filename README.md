@@ -1,4 +1,4 @@
-# PICOre
+# PICOre [![Discord](https://discordapp.com/api/guilds/881628699500359731/widget.png?style=shield)](https://discord.gg/6pFDJ3GbKh)
 The PICOre project consist of an ecosystem with stamp modules all pin to pin compatible.
 This project and product will give you the opportunity to save you time in PCB design and assembly.
 No need to copy and paste parts of previous design just to have the microcontroller part right.
@@ -12,3 +12,13 @@ Just drop the picore into your design and that it !
 The RP2040 version has all the 30 standard GPIOs you will find on a standard pico. Don't forget to follow the GPIO numbers because all of the others will are not used.
 
 ![](Images/PICOre.png)
+
+# How to use
+
+The files you will need if you want to use the PICOre (of any version) into your PCB project is in the **Kicad_Lib** folder. Make sure to use and connect pins that are available and not any of them.
+For exemple the RP2040 version has 30 GPIOs so all the other will not be connected.
+
+There is 3 footprint you can choose. Use the **THT** version if you want to have access to the USB and SWD pin under you PCB and use the **SMD** version if you want BGA style solder joints.
+The **PCB** footprint is for those who wants to create their owm pcb version.
+
+Find us 
