@@ -10,3 +10,5 @@ Just drop the picore into your design and that it !
 
 # RP2040 version
 The RP2040 version has all the 30 standard GPIOs you will find on a standard pico. Don't forget to follow the GPIO numbers because all of the others will are not used.
+
+![](Images/PICOre.png)
